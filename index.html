@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en " data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,9 +10,85 @@
       rel="stylesheet"
       type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- font lato -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2dde924456.js"
+      crossorigin="anonymous"></script>
+    <style>
+      .font-lato {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <h1>Fruit Busket</h1>
-    <p>Fol khete amar onek valo lage ... fol er upor kono oshud nai</p>
+  <body class="font-lato">
+    <header class="max-w-screen-[1440px]">
+      <div class="bg-pink-400 mx-[200px] h-[120px] my-[55px] rounded-[600px]">
+        <!-- right side part -->
+        <!-- logo title part -->
+        <div>
+          <img src="./images/logo.png" alt="" />
+          <h1>Fruit Burst</h1>
+        </div>
+        <!-- right side -->
+      </div>
+    </header>
+    <main></main>
+    <footer class="footer footer-center w-auto h-auto md:h-auto bg-[#121212]">
+      <!-- logo and title -->
+      <div
+        class="flex md:flex-col lg:flex-row mt-8 items-center justify-center gap-[10px]">
+        <img class="md:pb-[10px]" src="./images/logo.png" alt="" />
+        <h1 class="text-[#fff] text-right font-bold text-[40px]">
+          Fruit Busket
+        </h1>
+      </div>
+      <!-- about us section -->
+      <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6">
+        <p
+          class="text-[#fff] text-center text-lg font-semibold link link-hover">
+          Home
+        </p>
+        <p
+          class="text-[#fff] text-center text-lg font-semibold link link-hover">
+          About Us
+        </p>
+        <p
+          class="text-[#fff] text-center text-lg font-semibold link link-hover">
+          Shop
+        </p>
+        <p
+          class="text-[#fff] text-center text-lg font-semibold link link-hover">
+          All Fruits
+        </p>
+        <p
+          class="text-[#fff] text-center text-lg font-semibold link link-hover">
+          Support
+        </p>
+        <p
+          class="text-[#fff] text-center text-lg font-semibold link link-hover">
+          MyAccount
+        </p>
+      </div>
+      <!-- icons -->
+      <div
+        class="grid gap-5 md:gap-[40px] lg:gap-[40px] grid-flow-col mx-[50px]">
+        <img class="link link-hover" src="./images/twitter 1.svg" alt="" />
+        <img class="link link-hover" src="./images/facebook 1.svg" alt="" />
+        <img class="link link-hover" src="./images/Group 49.svg" alt="" />
+        <img class="link link-hover" src="./images/linkedin 1.svg" alt="" />
+        <img class="link link-hover" src="./images/instagram 1.svg" alt="" />
+        <img class="link link-hover" src="./images/apple 1.svg" alt="" />
+      </div>
+      <div>
+        <p class="text-gray-500 text-sm md:text-base mb-12 px-5">
+          Copyright © 2023 - All right reserved by FRUIT-Busket Industries Ltd
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
