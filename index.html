@@ -26,22 +26,22 @@
     </style>
   </head>
   <body class="font-lato ">
-    <header class="max-w-screen-auto h-[100%] lg:mx-[150px] lg:mb-[50px] lg:mt-[50px]">
-      <div class="navbar bg-base-100 lg:bg-purple-400 rounded-full">
+    <header class="max-w-screen-auto h-[100%] lg:mx-[150px] lg:mb-[50px] lg:mt-[50px] ">
+      <div class="navbar bg-base-100 lg:bg-purple-400 rounded-full " >
         <div class="navbar flex justify-between">
-          <div class="navbar-center relative max-sm:hidden  lg:flex  ">
+          <div class="navbar-center relative max-sm:hidden md:hidden lg:flex  ">
             <ul class="menu menu-horizontal px-1">
-              <li><a class="">Home</a></li>
-              <li><a class="">About Us</a></li>
-              <li><a class="">Shop</a></li>
-              <li><a class="">All Fruits</a></li>
+              <li><a class="text-white text-lg font-medium">Home</a></li>
+              <li><a class="text-white text-lg font-medium">About Us</a></li>
+              <li><a class="text-white text-lg font-medium">Shop</a></li>
+              <li><a class="text-white text-lg font-medium">All Fruits</a></li>
             </ul>
           </div>
-          <div class="flex gap-[5px]"><img src="./images/logo.png" alt="">
-          <h1 class="max-sm:text-xl max-sm:font-bold">Fruit Busket</h1></div>
-          <div class="max-sm:hidden max-md:hidden lg:-mr-[130px]">
+          <div class="flex gap-[13px] lg:-ml-[50px] md:ml-[15px]"><img src="./images/logo.png" alt="">
+          <h1 class="max-sm:text-xl max-sm:font-bold lg:text-[30px]   lg:text-white lg:font-bold ">Fruit Busket</h1></div>
+          <div class="max-sm:hidden max-md:hidden lg:-mr-[80px]">
             <div class="form-control rounded-full">
-              <div class="input-group">
+              <div class="input-group ">
                 <input type="text" placeholder="Search here..." class="input " />
                 <button class="btn btn-ghost bg-white rounded-e-full">
                   <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i>
@@ -85,7 +85,7 @@
     </header>
     <main>
       <!-- main section 1 -->
-      <section>
+      <section class="md:w-fit">
         <div class="carousel w-screen lg:w-auto lg:mx-[150px]">
           <div id="slide1" class="carousel-item relative w-full">
             <div
@@ -775,7 +775,7 @@
                 </div>
               </form>
             </dialog>
-          </div>
+          </div> 
         </div>
       </div>
       </section>
@@ -839,7 +839,22 @@
           </div>
         </div>
       </section>
-
+     <!-- why chose us  -->
+     <section>
+      <h1 class="text-5xl font-extrabold text-center mt-[50px]">Why Choose Us</h1>
+      <p class=" text-base text-slate-600 text-center mt-[15px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br>Latin literature from 45 BC, making it over 2000 years old.</p>
+     </section>
+     <!-- three section -->
+     <section class="mt-[50px] mx-[150px]">
+      <!-- left part  -->
+      <div>
+        <h4 class="text-2xl font-extrabold ">Dedicated Team</h4>
+        <p class="-mt-[10px] ml-[5px]">________________________</p>
+        <p class="text-base font-medium text-slate-500">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+      </div>
+      <!-- right part  -->
+      <div></div>
+     </section>
     </main>
     <footer class="footer footer-center w-auto h-auto md:h-auto bg-[#121212]">
       <!-- logo and title -->
